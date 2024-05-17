@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Lato&family=Libre+Baskerville&family=Merriweather:wght@700&family=Work+Sans&display=swap");
+
+.App-home {
+	text-align: center;
+	height: 100vh;
+	background-color: rgb(214, 245, 182);
+	font-family: sans-serif;
+	padding: 50px;
+  }
+  
+  .heading {
+	font-size: 25px;
+	text-align: center;
+  }
+  
+  .score {
+	height: 20vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+  }
+  
+  .choice {
+	height: 25vh;
+	margin-bottom: 7%;
+	display: flex;
+	justify-content: center;
+  }
+  img{
+	display: block;
+	overflow: hidden;
+  }
+  
+  .computer-hand {
+	width: 200px;
+  }
+
+  .user-hand {
+	width: 200px;
+	transform: rotateY(180deg);
+  }
+  
+  .button-div {
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	margin-top: 1%;
+  }
+  
+  .button {
+	width: auto;
+	height: auto;
+	justify-content: space-around;
+	align-items: center;
+	background-color: coral;
+	font-size: 15px;
+	border-radius: 5px;
+	cursor: pointer;
+  }
+  
+  .result {
+	padding: 30px;
+  }
