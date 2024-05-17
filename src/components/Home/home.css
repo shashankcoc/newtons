@@ -61,3 +61,29 @@
   .result {
 	padding: 30px;
   }
+
+  @media screen and (max-width:540px){
+	
+.App-home {
+	padding: 60px;
+  }
+	.heading {
+		font-size: 18px;
+		text-align: center;
+	  }
+	  .points {
+		font-size: 15px;
+	  }
+	  .computer-hand {
+		width: 120px;
+	  }
+	
+	  .user-hand {
+		width: 120px;
+		transform: rotateY(180deg);
+	  }
+	  .button {
+		font-size: 10px;
+	  }
+	  
+  }

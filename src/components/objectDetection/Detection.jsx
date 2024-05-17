@@ -60,9 +60,15 @@ function Detection() {
       <div className="App">
         <Navbar />
         <header className="App-header">
-          <h3>Live Object Detection</h3>
-          <h4>Please wait while Loooooooooding large model</h4>
-          <p>Please Try the model with different objects</p>
+          <div className="object-titles">
+            <h3 className="object-titles-1">Live Object Detection</h3>
+            <h4 className="object-titles-2">
+              Please wait while Loooooooooding large model
+            </h4>
+            <p className="object-titles-3">
+              Try the model with different objects
+            </p>
+          </div>
           <Webcam
             ref={webcamRef}
             muted={true}

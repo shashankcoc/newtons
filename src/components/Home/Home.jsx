@@ -97,8 +97,8 @@ const Home = () => {
           me💀){" "}
         </h1>
         <div className="score">
-          <h2>Your Points: {userPoints}</h2>
-          <h2>Computer Points: {computerPoints}</h2>
+          <h2 className="points">Your Points: {userPoints}</h2>
+          <h2 className="points">Computer Points: {computerPoints}</h2>
         </div>
 
         <div className="choice">

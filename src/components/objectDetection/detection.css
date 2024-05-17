@@ -37,6 +37,7 @@
   .App-link {
     color: #61dafb;
   }
+
   
   @keyframes App-logo-spin {
     from {
@@ -46,3 +47,41 @@
       transform: rotate(360deg);
     }
   }
+
+  @media screen and (max-width:664px){
+	
+    .canvas{
+      width: 400px !important;
+      height: 280px !important;
+  }
+  video{
+    width: 400px !important;
+      height: 280px !important;
+  }
+  .object-titles-1{
+    font-size: 15px;
+  }
+  .object-titles-2{
+    font-size: 13px;
+  }
+  .object-titles-3{
+    font-size: 13px;
+  }
+      }
+      @media screen and (max-width:400px){
+
+      video{
+        width: 300px !important;
+          height: 200px !important;
+      }
+      .object-titles-1{
+        font-size: 9px;
+      }
+      .object-titles-2{
+        font-size: 7px;
+      }
+      .object-titles-3{
+        font-size: 7px;
+      }
+            
+          }
