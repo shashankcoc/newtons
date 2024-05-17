@@ -38,8 +38,12 @@
     outline: none;
     border: 1px solid var(--grey);
     margin: 35px 15px;
-    font-size: 14px;
+    font-size: 14px;    
 }
+::placeholder {
+    color: var(--grey);
+    opacity: 1; /* Firefox */
+  }
 
 .form .form-details textarea {
     padding: 15px 20px;

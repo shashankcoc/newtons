@@ -20,7 +20,7 @@ const contact = () => {
                 type="text"
                 name="name"
                 id="name"
-                placeholder="Name"
+                placeholder="Name "
                 required
               />
               <input
