@@ -121,7 +121,7 @@ const Home = () => {
         <div className="button-div">
           {choices.map((choice, index) => (
             <button
-              className="button"
+              className="button btn-three"
               key={index}
               onClick={() => handleClick(choice)}
               disabled={gameOver}
@@ -138,8 +138,8 @@ const Home = () => {
           )}
         </div>
         <div className="result">
-          <h3>Turn Result: {turnResult}</h3>
-          <h3>Final Result: `{result}`</h3>
+          <h3 className="result-text">Turn Result: {turnResult}</h3>
+          <h3 className="result-text">Final Result: `{result}`</h3>
           <br />
         </div>
       </div>

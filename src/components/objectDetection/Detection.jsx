@@ -9,7 +9,7 @@ function Detection() {
   const webcamRef = useRef(null);
   const canvasRef = useRef(null);
   const [isLoading, setIsLoading] = useState(true);
-
+  const [wait, setWait] = useState("Please wait while loading large model...");
   // Main function
   const runCoco = async () => {
     setIsLoading(false);
@@ -43,7 +43,7 @@ function Detection() {
 
       // Make Detections
       const obj = await net.detect(video);
-
+      setWait("");
       // Draw mesh
       const ctx = canvasRef.current.getContext("2d");
       drawRect(obj, ctx);
@@ -63,10 +63,10 @@ function Detection() {
           <div className="object-titles">
             <h3 className="object-titles-1">Live Object Detection</h3>
             <h4 className="object-titles-2" style={{ color: "gray" }}>
-              Please wait it'll take some time to load large model
+              {wait}
             </h4>
             <p className="object-titles-3">
-              Try the model with different objects
+              try the model with different objects
             </p>
           </div>
           <Webcam

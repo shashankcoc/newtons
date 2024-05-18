@@ -79,7 +79,20 @@
 		width: 120px;
 		transform: rotateY(180deg);
 	  }
-	  .button {
+	  .btn-three {
 		font-size: 10px;
+		/* width: ; */
 	  }
+.result-text{
+	font-size: 15px;
+}
   }
+
+  @media screen and (max-width:375px){
+	.btn-three {
+		font-size: 7px;
+		/* width: 30%; */
+		/* padding: 10px; */
+		margin-left: 10px;
+	  }
+}
