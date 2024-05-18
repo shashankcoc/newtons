@@ -42,11 +42,16 @@ const Speech = () => {
             </div>
 
             <div className="btn-style">
-              <button onClick={setCopied}>
+              <button className="speech-btn" onClick={setCopied}>
                 {isCopied ? "Copied!" : "Copy to clipboard"}
               </button>
-              <button onClick={startListening}>Start Listening</button>
-              <button onClick={SpeechRecognition.stopListening}>
+              <button className="speech-btn" onClick={startListening}>
+                Start Listening
+              </button>
+              <button
+                className="speech-btn"
+                onClick={SpeechRecognition.stopListening}
+              >
                 Stop Listening
               </button>
             </div>

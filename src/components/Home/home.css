@@ -5,7 +5,7 @@
 	height: 100vh;
 	background-color: rgb(214, 245, 182);
 	font-family: sans-serif;
-	padding: 50px;
+	padding: 25px;
   }
   
   .heading {
@@ -44,7 +44,7 @@
 	display: flex;
 	justify-content: center;
 	padding: 20px;
-	margin-top: 1%;
+	margin: 2%;
   }
   
   .button {
@@ -58,9 +58,6 @@
 	cursor: pointer;
   }
   
-  .result {
-	padding: 30px;
-  }
 
   @media screen and (max-width:540px){
 	
@@ -85,5 +82,4 @@
 	  .button {
 		font-size: 10px;
 	  }
-	  
   }

@@ -62,8 +62,8 @@ function Detection() {
         <header className="App-header">
           <div className="object-titles">
             <h3 className="object-titles-1">Live Object Detection</h3>
-            <h4 className="object-titles-2">
-              Please wait while Loooooooooding large model
+            <h4 className="object-titles-2" style={{ color: "gray" }}>
+              Please wait it'll take some time to load large model
             </h4>
             <p className="object-titles-3">
               Try the model with different objects

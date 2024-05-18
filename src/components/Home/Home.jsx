@@ -87,10 +87,10 @@ const Home = () => {
     <>
       {confetti ? <Confetti width={width} height={height} /> : ""}
       <Navbar />
-      <marquee style={{ color: "red", fontSize: "1.3em" }}>
+      {/* <marquee style={{ color: "red", fontSize: "1.3em" }}>
         🚀 This is a collection of all projects under one roof; simply click on
         different links to browse projects 🚀{" "}
-      </marquee>
+      </marquee> */}
       <div className="App-home">
         <h1 className="heading">
           Rock-Paper-Scissors <br /> (If you lose, you'll have to interview
@@ -130,19 +130,17 @@ const Home = () => {
             </button>
           ))}
         </div>
-
-        <div className="result">
-          <h3>Turn Result: {turnResult}</h3>
-          <h3>Final Result: `{result}`</h3>
-          <br />
-        </div>
-
         <div className="button-div">
           {gameOver && (
             <button className="button" onClick={() => reset()}>
               Restart Game?
             </button>
           )}
+        </div>
+        <div className="result">
+          <h3>Turn Result: {turnResult}</h3>
+          <h3>Final Result: `{result}`</h3>
+          <br />
         </div>
       </div>
     </>
